@@ -16,7 +16,9 @@ h4 {
     margin: 0;
     font-weight: 100;
 }
-
+#tabsContainer{
+	display:none;
+}
 a {
     text-decoration: none;
 }
