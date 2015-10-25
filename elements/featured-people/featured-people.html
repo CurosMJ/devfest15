@@ -63,10 +63,10 @@
                 <template is="dom-repeat" items="[[people)]" as="person">
                     <div class="fe-people two-column-xs">
                         <iron-image src="[[person.photoUrl]]" class="fe-people-img placeholder-color img-circle" preload fade sizing="cover"></iron-image>
-                        <h4 class="fe-people-name">
+                        <h3 class="fe-people-name">
                             <span>[[person.name]]</span>
-                        </h4>
-                        <span class="fe-people-company">[[person.company]]</span>
+                        </h3>
+                        <span class="fe-people-company" style="font-size:1em;">[[person.company]]</span>
                     </div>
                 </template>
             </div>

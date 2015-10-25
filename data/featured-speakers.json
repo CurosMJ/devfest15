@@ -1,31 +1,81 @@
-[{
-    "id": 1,
-    "name": "Said Tahsin Dane",
-    "company": "Startup Digest, Turkey",
-    "photoUrl": "../../images/people/said_tahsine_dane.jpg"
-}, {
+[
+    {
     "id": 2,
-    "name": "Mateusz Herych",
-    "company": "Base CRM, Poland",
-    "photoUrl": "../../images/people/mateus_herych.jpg"
-}, {
-    "id": 3,
-    "name": "Michał Tajchert",
-    "company": "12Hours.io, Poland",
-    "photoUrl": "../../images/people/michal_tajchert.jpg"
-}, {
+    "name": "Naga Rajan M",
+    "title": "IAS (Indian Administrative Services)",
+    "company": "Goverment Of India",
+    "country": "India",
+    "photoUrl": "http://i.imgur.com/B2MQfXM.jpg",
+    "bio": "Naga Rajan M is currently serving is an IAS, working with Goverment of Guajrat as a District Relations Officer in Sabarkatha District.",
+    "tags": ["Cloud"],
+    "badges": [],
+    "socials": [
+    {
+       "name": "Facebook",
+       "link": "https://www.facebook.com/NagarajanIAS"
+    }]
+},
+{
+    "id": 7,
+    "name": "Anand Thakar",
+    "title": "Sr. Developer",
+    "company": "Hidden Brains Infotech. Pvt. Ltd.",
+    "country": "India",
+    "photoUrl": "https://secure.gravatar.com/avatar/f70eb21a70bddd8ca786aff6d89d94d2?size=500",
+    "bio": "Anand is a Sr. Web Developer at Hidden Brains Infotech. Pvt. Ltd. having 4 years of Experience with the Web Development and holds a Zend php 5.3 Certification.At web front Anand is mainly Active in the Wordpress Community and have been part of Many Wordcamps happen through out the india.During his Free time you can find him either traveling or Watching movies.",
+    "tags": ["Web","Frontend","AngularJS"],
+    "badges": [],
+    "socials": [
+    {
+       "name": "GitHub",
+       "link": "https://github.com/anthakkar08"
+    },
+    {
+        "name": "Twitter",
+        "link": "https://twitter.com/anthakkar08"
+    },{
+        "name": "LinkedIn",
+        "link": "https://in.linkedin.com/in/anandthakkar"
+    }]
+},
+{
     "id": 4,
-    "name": "Yehor Lvivski",
-    "company": "Spatialkey, Ukraine",
-    "photoUrl": "../../images/people/yehor_lvivski.jpg"
-}, {
+    "name": "Hardik Anant Mistry",
+    "title": "",
+    "company": "Developer Evangelist",
+    "country": "India",
+    "photoUrl": "http://i.imgur.com/dKdOpRX.jpg",
+    "bio": "Sufficiently qualified to be recognized as a Software Engineer, specialized on mobility and cloud computing platforms(s). I am a part time Gaming Freak and simply crazy for anything with wheels on it.",
+    "tags": ["Application Lifecycle Management"],
+    "badges": [],
+    "socials": [{
+        "name": "GitHub",
+        "link": "https://github.com/mistryhardik"
+    }, 
+    {
+        "name": "Facebook",
+        "link": "https://www.facebook.com/mistryhardik.05"
+    }]
+},
+{
     "id": 5,
-    "name": "Valentyn Shybanov",
-    "company": "Twinfield, Ukraine",
-    "photoUrl": "../../images/people/valentyn_shybanov.jpg"
-}, {
-    "id": 6,
-    "name": "Mandy Waite",
-    "company": "Google, UK",
-    "photoUrl": "../../images/people/mandy_waite.jpg"
-}]
+    "name": "Dhrumil Shah",
+    "title": "Lead Android Developer",
+    "company": "Bugle Technologies Pvt. Ltd.",
+    "country": "India",
+    "photoUrl": "http://i.imgur.com/ENPvkCh.jpg?1",
+    "bio": "Dhrumil Shah, The Co-Organizer of GDG Ahmedabad, Lead Android Developer at Bugle Technologies Pvt. Ltd. Dhrumil Shah has completed his masters in Computer engineering specialize in Wireless & Mobile Computing. Being a techno freak, his interest lies in developing apps and doing research.",
+    "tags": ["Android","Firebase"],
+    "badges": [],
+    "socials": [{
+        "name": "GitHub",
+        "link": "https://github.com/dhuma1981"
+    }, {
+        "name": "Twitter",
+        "link": "https://twitter.com/dhuma1981"
+    }, {
+        "name": "LinkedIn",
+        "link": "https://in.linkedin.com/pub/dhrumil-shah/41/687/139"
+    }]
+}
+]

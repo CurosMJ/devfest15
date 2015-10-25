@@ -1,16 +1,13 @@
 [
     {
-        "title": "General sponsor",
+        "title": "Sponsors",
         "logos": [{
             "name": "Google",
             "url": "https://www.developers.google.com",
             "logoUrl": "../images/partners/developers.png"
-        }]
-    },
-	{
-        "title": "Venue sponsor",
-        "logos": [{
-            "name": "Parul University",
+        },
+        {
+            "name": "Parul University (Event Sponsor)",
             "url": "https://www.parul.ac.in/",
             "logoUrl": "../images/partners/parul.jpg"
         }]

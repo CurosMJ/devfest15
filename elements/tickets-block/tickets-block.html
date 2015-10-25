@@ -52,38 +52,36 @@
         </style>
         <div id="pricetable" class="container wrap relative layout vertical text-center">
             <h4 class="heading">Tickets</h4>
-            <div class="price-block-wrapper flex layout vertical-horizontal">
-                <div class="price-block flex text-center">
-                    <span class="ticket-name block">Student's</span>
-                    <span class="price">Free</span>
-                    <span class="additional-info block">*Requires valid student ID</span>
+            <div class="price-block flex text-center">
+                    <!--<span class="ticket-name block">Student</span>-->
+                    <span class="price"><small>Rs. </small>100</span>
+                    <span class="block">
+                        Dont forget to use coupon code if you have any!
+                        <br/>
+                        Women can use the coupon code <b>GDGWoW</b> to avail free tickets!
+                        <br />
+                        <br />
+                        <a href="https://www.payumoney.com/events/#/buyTickets/DevfestBaroda15" target="_blank">
+                            <paper-button style="color:#00BCD4;background:#fff;font-weight:300;">Register</paper-button>
+                        </a>
+                        <br />
+                        <small>NOTE: Do not avail a coupon code that's not meant for you,<br /> otherwise your registration will be cancelled.</small>
+                    </span>
+                </div>
                 </div>
             </div>
-            <a href="http://goo.gl/forms/OzT8atU8Ti" target="_blank">
-                <paper-button class="colorful" raised>
-                    Register
-                </paper-button>
-            </a>
         </div>
-        <paper-dialog id="ticketsDialog" entry-animation="scale-up-animation" exit-animation="fade-out-animation" modal>
-                <div id="2event_tickets_widget" style="width: 640px; height: 300px; background:#fff;"></div>
-            <div class="buttons">
-                <a href="#" target="_blank">
-                    <paper-button>Buy on the website</paper-button>
-                </a>
-                <paper-button dialog-confirm>Close</paper-button>
-            </div>
-        </paper-dialog>
     </template>
 </dom-module>
 <script>
-    /* jshint ignore:start */
+    /*
+     jshint ignore:start */
     var widgetOptions = {
         bg_color: 'ffffff',
         id: 312113,
         lang: 'en'
     };
-    /* jshint ignore:end */
+    /* jshint ignore:end 
     (function() {
         var script = document.createElement('script');
         script.type = 'text/javascript';
@@ -91,6 +89,7 @@
         script.src = 'http://2event.com/js/widget-tickets.js';
         document.getElementsByTagName('head')[0].appendChild(script);
     })();
+    */
     Polymer({
         is: 'tickets-block',
         openTicketsDialog: function() {
@@ -98,4 +97,5 @@
             this.$.ticketsDialog.open();
         }
     });
+    
 </script>

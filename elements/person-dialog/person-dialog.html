@@ -113,7 +113,9 @@
                         <div class="person-detail flex layout vertical center-center">
                             <span class="name self-start">[[person.name]]</span>
                             <div class="title self-start">
-                                <span>[[person.title]]</span>,
+                                <span if="{{ person.title != null}}">
+                                    <span>{{person.title}}</span>,
+                                </span>
                                 <span>[[person.company]]</span>
                             </div>
                         </div>
